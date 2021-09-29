@@ -6,7 +6,7 @@ body{
 
 }
 .conatiner{
-  margin-top: 110-x !important;
+  margin-top: 110px !important;
 }
 .card{
   border: none;
@@ -28,15 +28,53 @@ body{
 .info{
   line-height: 17px;  
 }
+.star{
+  color: #fbc02d;
+}
  /*card 1*/
+}
 .cost span{
   color: #fb3531;
   font-weight: bold;
   font-size: 20px;
 }
 .shoe{
-  background: #dc3545;
+  background: #dc3545;}
+
+
+/*card 2*/
+.watchcost span{
+  color:  #286783;
+  font-weight:   bold;
+  font-size: 20px
 }
+.watch{
+  background: #286783;
+}
+/* card 3*/
+.tshirtcost span{
+  color:  #0012b2;
+  font-weight:  bold;
+  font-size:  20px;
+}
+
+.shirt:hover, .watch:hover, .shoe:hover{
+  opacity: .8;
+}
+.cursor{
+  cursor:   pointer;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius:   20px;  
+}
+
+
+
+
+
+
+
+
+
 
 
 
